@@ -9,3 +9,6 @@
 docker compose exec server bash -c 'npx sequelize db:migrate'
 ```
 
+#### Última atualização ####
+- Credenciais removidas do compose.yml — variáveis de ambiente via .env
+
